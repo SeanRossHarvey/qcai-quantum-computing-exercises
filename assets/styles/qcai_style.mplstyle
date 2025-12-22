@@ -1,0 +1,94 @@
+# QCAI Matplotlib Style Sheet
+# Modern, clean style for quantum computing visualisations
+
+# Figure properties
+figure.figsize: 10, 6
+figure.dpi: 100
+figure.facecolor: white
+figure.edgecolor: white
+figure.autolayout: False
+
+# Font properties
+font.family: sans-serif
+font.sans-serif: DejaVu Sans, Arial, Helvetica, sans-serif
+font.size: 12
+
+# Axes properties
+axes.titlesize: 16
+axes.titleweight: bold
+axes.titlepad: 12
+axes.labelsize: 14
+axes.labelweight: normal
+axes.labelpad: 8
+axes.linewidth: 1.5
+axes.edgecolor: black
+axes.facecolor: white
+axes.grid: True
+axes.axisbelow: True
+axes.prop_cycle: cycler('color', ['1f77b4', 'ff7f0e', '2ca02c', 'd62728', '9467bd', '8c564b', 'e377c2', '7f7f7f', 'bcbd22', '17becf'])
+axes.spines.top: True
+axes.spines.right: True
+axes.spines.bottom: True
+axes.spines.left: True
+
+# Grid properties
+grid.color: gray
+grid.linestyle: --
+grid.linewidth: 0.5
+grid.alpha: 0.3
+
+# Tick properties
+xtick.labelsize: 12
+xtick.direction: out
+xtick.major.size: 6
+xtick.major.width: 1.5
+xtick.minor.size: 3
+xtick.minor.width: 1
+xtick.minor.visible: False
+
+ytick.labelsize: 12
+ytick.direction: out
+ytick.major.size: 6
+ytick.major.width: 1.5
+ytick.minor.size: 3
+ytick.minor.width: 1
+ytick.minor.visible: False
+
+# Legend properties
+legend.fontsize: 12
+legend.frameon: True
+legend.framealpha: 0.9
+legend.edgecolor: black
+legend.fancybox: False
+legend.shadow: False
+
+# Line properties
+lines.linewidth: 2
+lines.markersize: 8
+lines.markeredgewidth: 1.5
+lines.antialiased: True
+
+# Bar plot properties
+patch.linewidth: 1
+patch.edgecolor: black
+patch.antialiased: True
+
+# Histogram properties
+hist.bins: 30
+
+# Image properties
+image.cmap: viridis
+image.aspect: auto
+
+# Saving properties
+savefig.dpi: 300
+savefig.bbox: tight
+savefig.pad_inches: 0.1
+savefig.transparent: False
+savefig.format: png
+
+# Error bar properties
+errorbar.capsize: 4
+
+# Scatter properties
+scatter.marker: o
