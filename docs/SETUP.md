@@ -124,7 +124,7 @@ The Python virtual environment (venv) is the recommended method for most users. 
 
 2. **Clone the repository**
    ```cmd
-   git clone https://github.com/yourusername/qcai-quantum-computing-exercises.git
+   git clone https://github.com/SeanRossHarvey/qcai-quantum-computing-exercises.git
    cd qcai-quantum-computing-exercises
    ```
 
@@ -161,7 +161,7 @@ The Python virtual environment (venv) is the recommended method for most users. 
 
 2. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/qcai-quantum-computing-exercises.git
+   git clone https://github.com/SeanRossHarvey/qcai-quantum-computing-exercises.git
    cd qcai-quantum-computing-exercises
    ```
 
@@ -199,7 +199,7 @@ Conda is an alternative package and environment manager, particularly popular in
 
 2. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/qcai-quantum-computing-exercises.git
+   git clone https://github.com/SeanRossHarvey/qcai-quantum-computing-exercises.git
    cd qcai-quantum-computing-exercises
    ```
 
@@ -511,7 +511,7 @@ If you continue to experience issues:
 
 1. **Check the main troubleshooting guide:** [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
 
-2. **Search existing issues:** [GitHub Issues](https://github.com/yourusername/qcai-quantum-computing-exercises/issues)
+2. **Search existing issues:** [GitHub Issues](https://github.com/SeanRossHarvey/qcai-quantum-computing-exercises/issues)
 
 3. **Qiskit-specific problems:** [Qiskit Documentation](https://docs.quantum.ibm.com/)
 

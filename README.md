@@ -55,7 +55,7 @@ If you don't have a Google account, you can use Binder instead:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/qcai-quantum-computing-exercises.git
+git clone https://github.com/SeanRossHarvey/qcai-quantum-computing-exercises.git
 cd qcai-quantum-computing-exercises
 
 # Create virtual environment and install dependencies
@@ -249,8 +249,8 @@ Based on original course materials developed for Quantum Computing and AI educat
 
 ## Support and Contact
 
-- **Issues**: Report bugs or request features via [GitHub Issues](https://github.com/yourusername/qcai-quantum-computing-exercises/issues)
-- **Discussions**: Join the conversation in [GitHub Discussions](https://github.com/yourusername/qcai-quantum-computing-exercises/discussions)
+- **Issues**: Report bugs or request features via [GitHub Issues](https://github.com/SeanRossHarvey/qcai-quantum-computing-exercises/issues)
+- **Discussions**: Join the conversation in [GitHub Discussions](https://github.com/SeanRossHarvey/qcai-quantum-computing-exercises/discussions)
 - **Documentation**: Check [docs/TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) for common issues
 
 ## Additional Resources
