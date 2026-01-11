@@ -1,5 +1,9 @@
 # Task 4: Playing Card Magic Trick with Quantum States
 
+**Quick Launch:**
+[![Open Starter in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SeanRossHarvey/qcai-quantum-computing-exercises/blob/main/notebooks/task_04_magic_trick/task_04_starter.ipynb)
+[![Open Solution in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SeanRossHarvey/qcai-quantum-computing-exercises/blob/main/notebooks/task_04_magic_trick/task_04_solution.ipynb)
+
 **Difficulty**: Intermediate
 **Prerequisites**: Task 2 (Linear Algebra), understanding of tensor products
 **Estimated Time**: 45-60 minutes

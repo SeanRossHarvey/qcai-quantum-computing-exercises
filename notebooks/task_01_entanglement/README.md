@@ -1,5 +1,9 @@
 # Task 1: Quantum Entanglement and Measurement Statistics
 
+**Quick Launch:**
+[![Open Starter in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SeanRossHarvey/qcai-quantum-computing-exercises/blob/main/notebooks/task_01_entanglement/task_01_starter.ipynb)
+[![Open Solution in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SeanRossHarvey/qcai-quantum-computing-exercises/blob/main/notebooks/task_01_entanglement/task_01_solution.ipynb)
+
 ## Overview
 
 This task introduces quantum computing through hands-on experience with quantum entanglement - one of the most fascinating phenomena in quantum mechanics. You'll create and simulate quantum circuits using Qiskit, observe measurement statistics, and visualise the correlations that arise from entanglement.

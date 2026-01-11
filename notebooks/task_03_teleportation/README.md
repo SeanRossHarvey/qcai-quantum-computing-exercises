@@ -1,5 +1,9 @@
 # Task 3: Quantum Teleportation
 
+**Quick Launch:**
+[![Open Starter in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SeanRossHarvey/qcai-quantum-computing-exercises/blob/main/notebooks/task_03_teleportation/task_03_starter.ipynb)
+[![Open Solution in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SeanRossHarvey/qcai-quantum-computing-exercises/blob/main/notebooks/task_03_teleportation/task_03_solution.ipynb)
+
 **Difficulty**: Intermediate
 **Prerequisites**: Task 1 (Entanglement), basic quantum gates
 **Estimated Time**: 60-75 minutes

@@ -1,5 +1,9 @@
 # Task 2: Linear Algebra Foundations for Quantum Computing
 
+**Quick Launch:**
+[![Open Starter in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SeanRossHarvey/qcai-quantum-computing-exercises/blob/main/notebooks/task_02_linear_algebra/task_02_starter.ipynb)
+[![Open Solution in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SeanRossHarvey/qcai-quantum-computing-exercises/blob/main/notebooks/task_02_linear_algebra/task_02_solution.ipynb)
+
 ## Overview
 
 This task explores the mathematical foundations of quantum computing through linear algebra. You'll learn how quantum states are represented as vectors and how quantum gates operate as matrix transformations.

@@ -1,5 +1,9 @@
 # Task 5: Quantum Error Correction
 
+**Quick Launch:**
+[![Open Starter in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SeanRossHarvey/qcai-quantum-computing-exercises/blob/main/notebooks/task_05_error_correction/task_05_starter.ipynb)
+[![Open Solution in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SeanRossHarvey/qcai-quantum-computing-exercises/blob/main/notebooks/task_05_error_correction/task_05_solution.ipynb)
+
 **Difficulty**: Advanced
 **Prerequisites**: Task 1 (Entanglement), Task 3 (Teleportation), multi-qubit gates
 **Estimated Time**: 75-90 minutes

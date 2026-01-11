@@ -23,7 +23,35 @@ This repository contains 5 progressive quantum computing exercises designed for 
 4. **Playing Card Magic Trick**: High-dimensional quantum spaces, Kronecker products, probability amplitudes
 5. **Quantum Error Correction**: Three-qubit bit-flip code, encoding/decoding circuits, error detection and correction
 
-## Quick Start
+## 🚀 Quick Launch (No Installation Required)
+
+**Try the exercises instantly in your browser using Google Colab:**
+
+| Task | Topic | Starter Notebook | Solution |
+|:----:|:------|:----------------:|:--------:|
+| **1** | Quantum Entanglement & Bell States | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SeanRossHarvey/qcai-quantum-computing-exercises/blob/main/notebooks/task_01_entanglement/task_01_starter.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SeanRossHarvey/qcai-quantum-computing-exercises/blob/main/notebooks/task_01_entanglement/task_01_solution.ipynb) |
+| **2** | Linear Algebra Foundations | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SeanRossHarvey/qcai-quantum-computing-exercises/blob/main/notebooks/task_02_linear_algebra/task_02_starter.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SeanRossHarvey/qcai-quantum-computing-exercises/blob/main/notebooks/task_02_linear_algebra/task_02_solution.ipynb) |
+| **3** | Quantum Teleportation Protocol | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SeanRossHarvey/qcai-quantum-computing-exercises/blob/main/notebooks/task_03_teleportation/task_03_starter.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SeanRossHarvey/qcai-quantum-computing-exercises/blob/main/notebooks/task_03_teleportation/task_03_solution.ipynb) |
+| **4** | Playing Card Magic Trick | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SeanRossHarvey/qcai-quantum-computing-exercises/blob/main/notebooks/task_04_magic_trick/task_04_starter.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SeanRossHarvey/qcai-quantum-computing-exercises/blob/main/notebooks/task_04_magic_trick/task_04_solution.ipynb) |
+| **5** | Quantum Error Correction | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SeanRossHarvey/qcai-quantum-computing-exercises/blob/main/notebooks/task_05_error_correction/task_05_starter.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SeanRossHarvey/qcai-quantum-computing-exercises/blob/main/notebooks/task_05_error_correction/task_05_solution.ipynb) |
+
+**How it works:**
+- Click any "Open in Colab" badge to launch the notebook in your browser
+- Run the first cell to auto-install dependencies (takes ~30 seconds)
+- Start learning immediately - no setup required!
+- **Updates reflect instantly**: When notebooks are updated in GitHub, just refresh your Colab page to get the latest version
+
+**Note**: Google account required. To save your work, go to **File → Save a copy in Drive**.
+
+### Alternative: Binder (No Google Account Required)
+
+If you don't have a Google account, you can use Binder instead:
+
+[![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SeanRossHarvey/qcai-quantum-computing-exercises/main)
+
+**Note**: Binder takes 2-5 minutes to build the environment on first launch, and updates may take 30+ minutes to appear due to caching. For instant updates, use Google Colab.
+
+## Quick Start (Local Installation)
 
 ```bash
 # Clone the repository

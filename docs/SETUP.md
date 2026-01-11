@@ -6,8 +6,9 @@ This guide provides detailed instructions for setting up the QCAI Quantum Comput
 
 - [Prerequisites](#prerequisites)
 - [Installation Methods](#installation-methods)
-  - [Method 1: Using venv (Recommended)](#method-1-using-venv-recommended)
-  - [Method 2: Using Conda](#method-2-using-conda)
+  - [Method 1: Google Colab (Easiest - No Installation Required)](#method-1-google-colab-easiest---no-installation-required)
+  - [Method 2: Using venv (Recommended for Local Development)](#method-2-using-venv-recommended-for-local-development)
+  - [Method 3: Using Conda](#method-3-using-conda)
 - [Verifying Your Installation](#verifying-your-installation)
 - [Running Jupyter Notebooks](#running-jupyter-notebooks)
 - [Updating Dependencies](#updating-dependencies)
@@ -45,7 +46,75 @@ Before you begin, ensure you have the following installed on your system:
 
 ## Installation Methods
 
-### Method 1: Using venv (Recommended)
+### Method 1: Google Colab (Easiest - No Installation Required)
+
+**Recommended for**: Quick exploration, students without local Python setup, or anyone who wants instant access
+
+Google Colab provides a free, cloud-based Jupyter notebook environment that requires zero installation.
+
+#### Advantages
+- No local installation required
+- Works on any device (including Chromebooks and tablets)
+- Free GPU access (not needed for these exercises, but available)
+- Automatic dependency installation
+- Changes to the repository appear **within seconds** after being pushed to GitHub
+
+#### Getting Started
+
+1. **Navigate to the main README**
+   Visit: https://github.com/SeanRossHarvey/qcai-quantum-computing-exercises
+
+2. **Click any "Open in Colab" badge**
+   - Choose a starter notebook to work on exercises
+   - Choose a solution notebook to see complete implementations
+
+3. **Run the first cell**
+   The first code cell in each notebook automatically detects Colab and installs dependencies:
+   ```python
+   # This cell runs automatically when you execute it
+   import sys
+   if 'google.colab' in sys.modules:
+       print("📦 Installing dependencies for Google Colab...")
+       !pip install -q qiskit>=1.0.0 qiskit-aer>=0.13.0 matplotlib seaborn
+       print("✓ Dependencies installed successfully!")
+   ```
+   Installation takes approximately 30 seconds.
+
+4. **Start coding!**
+   Work through the exercises. All cells will run normally in Colab.
+
+#### Saving Your Work
+
+- **Option 1**: File → Save a copy in Drive (saves to your Google Drive)
+- **Option 2**: File → Download → Download .ipynb (saves locally)
+- **Important**: Your changes are NOT saved to the original repository (which is read-only)
+
+#### Accessing Latest Updates
+
+When the repository is updated:
+1. Refresh your Colab page
+2. Re-run the first cell to ensure dependencies are current
+3. Changes appear within 30 seconds to 2 minutes of being pushed to GitHub
+
+#### Limitations
+
+- Session timeout after 90 minutes of inactivity
+- Maximum 12-hour session duration
+- Limited to Google Colab's computational resources (sufficient for these exercises)
+- Requires Google account
+
+#### Direct Links
+
+**Starter Notebooks (for students):**
+- [Task 1: Entanglement](https://colab.research.google.com/github/SeanRossHarvey/qcai-quantum-computing-exercises/blob/main/notebooks/task_01_entanglement/task_01_starter.ipynb)
+- [Task 2: Linear Algebra](https://colab.research.google.com/github/SeanRossHarvey/qcai-quantum-computing-exercises/blob/main/notebooks/task_02_linear_algebra/task_02_starter.ipynb)
+- [Task 3: Teleportation](https://colab.research.google.com/github/SeanRossHarvey/qcai-quantum-computing-exercises/blob/main/notebooks/task_03_teleportation/task_03_starter.ipynb)
+- [Task 4: Magic Trick](https://colab.research.google.com/github/SeanRossHarvey/qcai-quantum-computing-exercises/blob/main/notebooks/task_04_magic_trick/task_04_starter.ipynb)
+- [Task 5: Error Correction](https://colab.research.google.com/github/SeanRossHarvey/qcai-quantum-computing-exercises/blob/main/notebooks/task_05_error_correction/task_05_starter.ipynb)
+
+---
+
+### Method 2: Using venv (Recommended for Local Development)
 
 The Python virtual environment (venv) is the recommended method for most users. It creates an isolated Python environment, preventing conflicts with other projects.
 
@@ -116,7 +185,7 @@ The Python virtual environment (venv) is the recommended method for most users. 
    python scripts/verify_installation.py
    ```
 
-### Method 2: Using Conda
+### Method 3: Using Conda
 
 Conda is an alternative package and environment manager, particularly popular in scientific computing.
 
